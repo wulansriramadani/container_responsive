@@ -1,0 +1,104 @@
+~<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="wrap">
+
+
+            <!-- //gambar1 -->
+            <div class="card"data-tilt data-tilt-reverse="true">
+                <div class="img">
+                    <img src="gambar1.jpg" alt="gambar1">
+                </div>
+                <div class="text">
+                    <h4>gambar pertama</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti nesciunt incidunt doloremque laborum repudiandae quos. Itaque est quidem veritatis tempore unde quasi modi laboriosam cumque error sunt? Maxime, quisquam placeat!</p>
+                </div>
+            </div>
+
+            <!-- //gambar2 -->
+            <div class="card"data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                <div class="img">
+                    <img src="gambar3.jpg" alt="gambar1">
+                </div>
+                <div class="text">
+                    <h4>gambar kedua</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti nesciunt incidunt doloremque laborum repudiandae quos. Itaque est quidem veritatis tempore unde quasi modi laboriosam cumque error sunt? Maxime, quisquam placeat!</p>
+                </div>
+            </div>
+
+            <!-- //gambar3 -->
+            <div class="card" data-tilt data-tilt-reset="false">
+                <div class="img">
+                    <img src="gambar2.jpg" alt="gambar1">
+                </div>
+                <div class="text">
+                    <h4>gambar ketiga</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti nesciunt incidunt doloremque laborum repudiandae quos. Itaque est quidem veritatis tempore unde quasi modi laboriosam cumque error sunt? Maxime, quisquam placeat!</p>
+                </div>
+            </div>
+
+                <!-- /gambar4/ -->
+            <div class="card"data-tilt data-tilt-reset="false">
+                <div class="img">
+                    <img src="gambar3.jpg" alt="gambar1">
+                </div>
+                <div class="text">
+                    <h4>gambar keempat</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti nesciunt incidunt doloremque laborum repudiandae quos. Itaque est quidem veritatis tempore unde quasi modi laboriosam cumque error sunt? Maxime, quisquam placeat!</p>
+                </div>
+            </div>
+
+            <!-- //gambar5 -->
+            <div class="card"data-tilt data-tilt-reset="false">
+                <div class="img">
+                    <img src="gambar4.jpg" alt="gambar1">
+                </div>
+            <div class="text">
+                    <h4>gambar kelima</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti nesciunt incidunt doloremque laborum repudiandae quos. Itaque est quidem veritatis tempore unde quasi modi laboriosam cumque error sunt? Maxime, quisquam placeat!</p>
+            </div>
+            </div>
+
+                <!-- //gambar6 -->
+            <div class="card"  data-tilt data-tilt-full-page-listening>
+                <div class="img">
+                    <img src="gambar3.jpg" alt="gambar1">
+                </div>
+                <div class="text">
+                    <h4>gambar keenam</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti nesciunt incidunt doloremque laborum repudiandae quos. Itaque est quidem veritatis tempore unde quasi modi laboriosam cumque error sunt? Maxime, quisquam placeat!</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    
+<script  src="vanilla-tilt.min.js"></sc>ript
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 400;
+        });
+        
+    </script>
+
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".img"), {
+            max: 25,
+            speed: 400;
+        });
+        
+    </script>
+</body>
+</html>
